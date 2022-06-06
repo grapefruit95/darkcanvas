@@ -1,0 +1,39 @@
+:root {
+    --ctrLD-color: rgb(150, 150, 150) !important; /*To Do and Recent Feedback title colors*/
+    --eHiXd-linkColor: rgb(99, 173, 229) !important; /*To Do link color*/
+    --jpyTq-color: rgb(70, 111, 141) !important; /*To Do icon color*/
+}
+
+body {
+    background: rgb(40, 40, 40) !important; /*global background color*/
+    background-color: rgb(40, 40, 40) !important; /*global background color*/
+    color:rgb(200, 200, 200) !important; /*global text color*/
+}
+
+.ic-Dashboard-header__layout {
+    background: rgb(40, 40, 40) !important; /*dashboard top bar color*/
+}
+
+#right-side .events_list .event-details:after, #right-side .events_list .todo-details:after, #right-side .to-do-list .event-details:after, #right-side .to-do-list .todo-details:after {
+    background: rgb(0,0,0,0) !important; /*weird unused gradient element. make it completely transparent*/
+}
+
+/*FIX THE BUTTON*/
+.btn:active, .Button:active, .ui-button:active {
+    background: rgb(100, 100, 100) !important; /*button color when clicked*/
+}
+
+.btn:hover, .Button:hover, .ui-button:hover {
+    background: #e8e8e8;
+    color: #2d3b45;
+}
+
+.btn, .Button, .ui-button {
+    background: rgb(80, 80, 80) !important; /*button background color*/
+    border-color: rgb(0,0,0,0) !important; /*button border color*/
+    color:rgb(200, 200, 200) !important; /*button text color*/
+}
+
+#right-side .right-side-list li em, #right-side .right-side-list li p {
+    color: rgb(107, 119, 128) !important; /*Recent feedback item subtext*/
+}

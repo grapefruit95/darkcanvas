@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+   
+    "name": "Dark Canvas",
+    "version": "1.0",
+    "description": "A comprehensive dark theme for Canvas",
+   
+    "content_scripts": [{
+      "css": ["style.css"],
+      "js": ["content.js"],
+      "matches": ["https://utexas.instructure.com/*"]
+    }]
+   
+  }
